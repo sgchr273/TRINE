@@ -1,0 +1,12 @@
+*__pyche__/
+*.pt
+data/
+outputs/
+Plots/
+*.txt
+
+premise_validation_util.py
+diagnose_vilu.py
+knn_sweep.py
+knn_failure_scoring_ablation.py
+rank_decay_sweep.py
