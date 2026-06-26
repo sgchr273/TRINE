@@ -75,7 +75,7 @@ For SigLIP, install SentencePiece if needed:
 ```bash
 pip install sentencepiece
 ```
-
+<!-- 
 If FAISS-based retrieval is used in your helper functions, install either the CPU or GPU version:
 
 ```bash
@@ -85,7 +85,7 @@ pip install faiss-cpu
 or, for GPU support:
 
 ```bash
-conda install -c pytorch -c nvidia faiss-gpu
+conda install -c pytorch -c nvidia faiss-gpu -->
 ```
 
 ## Usage
@@ -155,7 +155,7 @@ python main.py \
 | `--output_json`      | Path for saving output metrics and per-sample scores                                    |
 | `--output_dir`       | Directory for saving plots and ablation outputs                                         |
 
-## Ablation Studies
+<!-- ## Ablation Studies
 
 The script supports ablation studies for the number of neighbors and rank-decay coefficient.
 
@@ -179,7 +179,7 @@ python main.py \
   --method knn \
   --run_rank_decay_ablation \
   --rank_decay_alpha_values 0.0 0.01 0.02 0.05 0.1 0.2 0.5 1.0
-```
+``` -->
 
 ## Outputs
 
