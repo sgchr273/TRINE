@@ -1,4 +1,7 @@
 *__pyche__/
+*.pyc
+*.pyo
+*.pyd
 *.pt
 data/
 outputs/
@@ -10,3 +13,4 @@ diagnose_vilu.py
 knn_sweep.py
 knn_failure_scoring_ablation.py
 rank_decay_sweep.py
+git pull origin main --allow-unrelated-histories
